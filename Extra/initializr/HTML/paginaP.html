@@ -16,105 +16,149 @@
 </head>
 
 <body>
-  <header>
-    <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+
+
+    <header>
+      <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menuCurso">
+              <span class="sr-only">
+              Desplegar/ Ocultar Menu</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a href="https://twitter.com/losclaxons?lang=es" class="navbar-brand">Los claxons</a>
+          </div>
+          <!--Inicia opciones de menu-->
+          <div class="collapse navbar-collapse" id="menuCurso">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Integrantes <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="https://twitter.com/cesareocz">Cesareo Castillo</a></li>
+                  <li class="divider"></li>
+                  <li><a href="https://twitter.com/sunchasesanchez">Mauricio Sánchez</a></li>
+                  <li class="divider"></li>
+                  <li><a href="https://twitter.com/nachito10">Ignacio Llantada</a></li>
+                  <li class="divider"></li>
+                  <li><a href="https://twitter.com/gzzsarre">Pablo González</a></li>
+                  <li class="divider"></li>
+                  <li><a href="https://twitter.com/chololoz">Edgar Lozano</a></li>
+                </ul>
+              </li>
+              <li><a href="file:///C:/Users/Jorge%20Luis%20RR/Desktop/ProyectoDW/Extra/initializr/HTML/multimedia.html">Multimedia</a></li>
+              <li><a href="file:///C:/Users/Jorge%20Luis%20RR/Desktop/ProyectoDW/Extra/initializr/HTML/contacto.html">Contacto</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="jumbotron">
       <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menuCurso">
-            <span class="sr-only">
-            Desplegar/ Ocultar Menu</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a href="#" class="navbar-brand">Los claxons</a>
-        </div>
-        <!--Inicia opciones de menu-->
-        <div class="collapse navbar-collapse" id="menuCurso">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Integrantes <span class="caret"></span>
-              </a>
-              <ul class="dropdown-menu" role="menu">
-                <li><a href="#">Cesareo Castillo</a></li>
-                <li class="divider"></li>
-                <li><a href="#">Mauricio Sánchez</a></li>
-                <li class="divider"></li>
-                <li><a href="#">Ignacio Llantada</a></li>
-                <li class="divider"></li>
-                <li><a href="#">Pablo González</a></li>
-                <li class="divider"></li>
-                <li><a href="#">Edgar Lozano</a></li>
-              </ul>
-            </li>
-            <li><a href="file:///C:/Users/Jorge%20Luis%20RR/Desktop/ProyectoDW/Extra/initializr/HTML/multimedia.html">Multimedia</a></li>
-            <li><a href="file:///C:/Users/Jorge%20Luis%20RR/Desktop/ProyectoDW/Extra/initializr/HTML/contacto.html">Contacto</a></li>
-          </ul>
-        </div>
+        <h1>Página Oficial-LOS CLAXONS</h1>
+        <h2>Bienvenidos</h2>
       </div>
-    </nav>
-  </header>
+    </section>
 
-  <section class="jumbotron">
-    <div class="container">
-      <h1>Página Oficial-LOS CLAXONS</h1>
-      <h2>Bienvenidos</h2>
-    </div>
-  </section>
-  
+
   <div class="container">
-    <h3>Lo más nuevo de Los Claxons</h3>
-    <div class="row">
-      <div class="col-xs-6">
-        <div id="carouselClaxons" class="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#carouselClaxons" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselClaxons" data-slide-to="1"></li>
-            <li data-target="#carouselClaxons" data-slide-to="2"></li>
-          </ol>
-      <div class="carousel-inner" role="listbox">
-        <div class="item active">
-          <img src="../media/c1.jpg" alt="">
-          <div class="carousel-caption">
-            <h3>Nuevo sencillo</h3>
-            <p>¡Adquierelo ya!</p>
-          </div>
-        </div>
+      <h3>Lo más nuevo de Los Claxons</h3>
+      <div class="row">
+        <div class="col-md-6">
+          <div id="carouselClaxons" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselClaxons" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselClaxons" data-slide-to="1"></li>
+              <li data-target="#carouselClaxons" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+              <div class="item active">
+                <img src="../media/c1.jpg" alt="">
+                <div class="carousel-caption">
+                  <h3>Nuevo sencillo</h3>
+                  <p>¡Adquierelo ya!</p>
+                </div>
+              </div>
 
-        <div class="item">
-          <img src="../media/c2.jpg" alt="">
-          <div class="carousel-caption">
-          </div>
-        </div>
+              <div class="item">
+                <img src="../media/c2.jpg" alt="">
+                <div class="carousel-caption">
+                </div>
+              </div>
 
-        <div class="item">
-          <img src="../media/c3.jpg" alt="">
-          <div class="carousel-caption">
-            <h3 style="color:#DB2233">Información gira por el país</h3>
+              <div class="item">
+                <img src="../media/c3.jpg" alt="">
+                <div class="carousel-caption">
+                  <h3>Información gira por el país</h3>
+                </div>
+              </div>
+
+            </div>
+
+            <a class="left carousel-control" href="#carouselClaxons" role="button" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+              <span class="sr-only">Previo</span>
+            </a>
+
+
+            <a class="right carousel-control" href="#carouselClaxons" role="button" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+              <span class="sr-only">Siguiente</span>
+            </a>
+
+
           </div>
+
+
+          <section class="main container">
+            <div class="row">
+
+              <section class="col-md-9 posts">
+                <div class="migas">
+                  <ol class="list-inline">
+                    <br>
+                    <br>
+                    <li><a href="file:///C:/Users/Jorge%20Luis%20RR/Desktop/ProyectoDW/Extra/initializr/HTML/paginaP.html#">Inicio</a></li>
+                    <li><a href="http://losclaxons.com/eventos/">Eventos</a></li>
+                    <li class="active">Ultimas noticias</li>
+                  </ol>
+                </div>
+
+                <section class="col-md-9 posts">
+                  <h2 class="titular">
+                    <a href="#">Últimas noticias</a>
+                    <br>
+                  </h2>
+                </section>
+                <article class="post">
+                  <a class="pull-left thumb" href="http://losclaxons.com/2016/11/25/798/"><img class="img-thumbail" src="" alt=""></a>
+                </article>
+              </section>
+
+              <section class="col-md-6 posts">
+                <article>
+                  <p class="contenido text-justify">Con el lanzamiento de su sencillo “Desde que te vi”, la banda regiomontana en conjunto con su sello Movic Records estarán introduciendo un concepto con el cual revolucionarán la forma en que se hace y se lanza la música.</p>
+
+                  <div class="botones">
+                    <a href="http://losclaxons.com/2016/11/25/798/" class="btn btn-primary">
+                      Leer más
+                    </a>
+                  </div>
+                </article>
+              </section>
+
+            </div>
+          </section>
+
         </div>
 
       </div>
-
-      <a class="left carousel-control" href="#carouselClaxons" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Previo</span>
-      </a>
-
-
-      <a class="right carousel-control" href="#carouselClaxons" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Siguiente</span>
-      </a>
-
-
-        </div>
-      </div>
-      <div class="col-xs-6"></div>
     </div>
-  </div>
-
 
 <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
