@@ -1,17 +1,6 @@
-.color1{
-	background-color:#e6e6e6; 
-}
-
-.color2{
-	background-color: #68217A;
-}
-
-.color3
-{
-	color:white;
-}
-
-.color4
-{
-	background-color: black;
+.container{
+	width: 1000px;
+	max-width: 1000px;
+	margin: 0 auto;
+	overflow:hidden;
 }
